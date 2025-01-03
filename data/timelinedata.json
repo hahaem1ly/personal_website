@@ -1,0 +1,71 @@
+[
+    {
+      "title": "IKEA INGKA GROUP",
+      "roles": [
+        {
+          "title": "AI Thesis Intern",
+          "description": "Developing and integrating a large language model into IKEA's internal portal to visualize and describe data flow events.",
+          "date": "January 2025 - Spring 2025"
+        },
+        {
+          "title": "Project Intern",
+          "description": "Developed and integrated a dashboard and timeline component to visualize the data flow system backend for IKEA's order management. Utilized React, JavaScript, TypeScript, and API integration for implementation.",
+          "date": "August 2024 - December 2024"
+        }
+      ],
+      "location": "Malmö"
+    },
+    {
+      "title": "Combain Mobile AB",
+      "role": "Software Engineering Intern",
+      "description": "Worked in the Traxmate AI team on two projects: AI File Management Widget (Designed a user-friendly UI for file uploads and management for the AI core) and AI Chat Interface (Developed a dynamic chat UI for communication with multiple AI agents). Utilized Angular, TypeScript, HTML, CSS, and API integration.",
+      "location": "Lund",
+      "date": "June 2024 - September 2024"
+    },
+    {
+      "title": "Lund University",
+      "roles": [
+        {
+          "title": "Teaching Assistant in Java",
+          "description": "Guided labs on object-oriented programming, algorithms, and data structures."
+        },
+        {
+          "title": "Teaching Assistant in Advanced Java",
+          "description": "Supervised labs on TDD, sorting algorithms, and time complexity."
+        },
+        {
+          "title": "Teaching Assistant in Databases",
+          "description": "Conducted labs on SQL, E/R modeling, and relational database design."
+        },
+        {
+          "title": "Teaching Assistant in Digital Systems",
+          "description": "Assisted students in hardware coding, Boolean algebra, and state machines."
+        },
+        {
+          "title": "Supplemental Instructor in Mathematics",
+          "description": "Supported students in one-dimensional mathematical analysis."
+        },
+        {
+          "title": "Supplemental Instructor in Digital Systems",
+          "description": "Provided academic support in digital circuits and embedded systems."
+        }
+      ],
+      "location": "Helsingborg",
+      "date": "August 2023 - Present"
+    },
+    {
+      "title": "CGI",
+      "role": "Female Student Acceleration Program",
+      "description": "A program introducing the consulting profession, focusing on communication styles, presentation techniques, digital technologies, and case solution analysis.",
+      "location": "Malmö",
+      "date": "January 2024 - May 2024"
+    },
+    {
+        "title": "Vattenhallen Science center",
+        "role": "Student Assistant",
+        "description": "Conducted scientific experiments for children from preschool to high school, including programming Edison cars and Microbits.",
+        "location": "Helsingborg",
+        "date": "December 2023 - April 2024"
+    }
+  ]
+  

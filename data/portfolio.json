@@ -1,9 +1,9 @@
 {
-  "name": "Emily",
-  "headerTaglineOne": "Hello 👋",
-  "headerTaglineTwo": "I'm Emily - curious",
-  "headerTaglineThree": "designer and developer",
-  "headerTaglineFour": "based in Sweden, Helsingborg",
+  "name": "",
+  "headerTaglineOne": "Hello,",
+  "headerTaglineTwo": "My name is Emily!",
+  "headerTaglineThree": "I'm a computer science engineering student",
+  "headerTaglineFour": "",
   "showBlog": true,
   "darkMode": true,
   "socials": [
@@ -20,16 +20,16 @@
     {
       "id": "3",
       "title": "Email",
-      "link": "mailto:em2653ha-s@student.lu.se"
+      "link": "mailto:em1lyha2002@gmail.com"
     }
   ],
   "projects": [
     {
       "id": "1",
-      "title": "IKEA Event Dashboard",
+      "title": "IKEA internal portal project",
       "description": "Timeline and event visualization for order management.",
       "imageSrc": "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?auto=format&fit=crop&w=400&q=60",
-      "url": "https://github.com/hahaem1ly/event-dashboard"
+      "url": ""
     },
     {
       "id": "2",

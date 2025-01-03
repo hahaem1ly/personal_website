@@ -1,126 +1,101 @@
 {
   "name": "Emily",
-  "headerTaglineOne": "Hello 👋",
-  "headerTaglineTwo": "I'm Emily - curious",
-  "headerTaglineThree": "designer and developer",
-  "headerTaglineFour": "based in Sweden.",
+  "headerTaglineOne": "Hello,",
+  "headerTaglineTwo": "I'm Emily - Computer Science Engineering student",
+  "headerTaglineThree": "Computer Science Engineering student",
+  "headerTaglineFour": "based in Sweden, Helsingborg",
   "showBlog": true,
   "darkMode": true,
   "socials": [
     {
       "id": "1",
-      "title": "Github",
-      "link": "https://github.com/chetanverma16"
+      "title": "GitHub",
+      "link": "https://github.com/hahaem1ly"
     },
     {
       "id": "2",
       "title": "LinkedIn",
-      "link": "https://www.linkedin.com/in/chetanverma7/"
+      "link": "https://www.linkedin.com/in/emily-ha-885605210/"
     },
     {
       "id": "3",
-      "title": "Twitter",
-      "link": "https://twitter.com/realchetanverma"
-    },
-    { "id": "4", "title": "Blog", "link": "https://blog.chetanverma.com/" },
-    { "id": "5", "title": "Email", "link": "mailto:hello@chetanverma.com" }
+      "title": "Email",
+      "link": "mailto:em2653ha-s@student.lu.se"
+    }
   ],
   "projects": [
     {
       "id": "1",
-      "title": "Project One Test",
-      "description": "Web Design",
-      "imageSrc": "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
+      "title": "IKEA Event Dashboard",
+      "description": "Timeline and event visualization for order management.",
+      "imageSrc": "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?auto=format&fit=crop&w=400&q=60",
+      "url": "https://github.com/hahaem1ly/event-dashboard"
     },
     {
       "id": "2",
-      "title": "Project Two",
-      "description": "Web Development",
-      "imageSrc": "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
+      "title": "Movie Review App",
+      "description": "React app with movie reviews and API integration.",
+      "imageSrc": "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?auto=format&fit=crop&w=400&q=60",
+      "url": "https://github.com/hahaem1ly/movie-review-app"
     },
     {
       "id": "3",
-      "title": "Project Three",
-      "description": "Design",
-      "imageSrc": "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
-    },
-    {
-      "id": "4",
-      "title": "Project Four",
-      "description": "Marketing",
-      "imageSrc": "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
-    },
-    {
-      "id": "5",
-      "title": "Project Five",
-      "description": "Development",
-      "imageSrc": "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
-    },
-    {
-      "id": "6",
-      "title": "Project Six",
-      "description": "Design & Development",
-      "imageSrc": "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
+      "title": "Personal Portfolio",
+      "description": "Portfolio website hosted on GitHub Pages.",
+      "imageSrc": "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?auto=format&fit=crop&w=400&q=60",
+      "url": "https://hahaem1ly.github.io"
     }
   ],
   "services": [
     {
       "id": "1",
-      "title": "Art Direction",
-      "description": "We help with the creation and development of online advertising ideas, with particular focus on their visual appearance."
+      "title": "Web Development",
+      "description": "Building functional and user-friendly web applications using React, JavaScript, and modern tools."
     },
     {
       "id": "2",
-      "title": "Branding",
-      "description": "We design key brand elements such as the logo, color scheme, typography, and other design components that makes your brand stand out from competitors."
+      "title": "UX/UI Design",
+      "description": "Crafting intuitive and aesthetically pleasing designs tailored to user needs."
     },
     {
       "id": "3",
-      "title": "Web Design",
-      "description": "We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel."
-    },
-    {
-      "id": "4",
-      "title": "3D Design",
-      "description": "We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."
+      "title": "Prototyping",
+      "description": "Creating interactive mockups for design validation and iteration."
     }
   ],
-  "aboutpara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  "aboutpara": "I'm a computer science engineering student passionate about web development, UX/UI design, and real-time systems. I strive to create meaningful digital experiences while continuously learning and growing in my craft.",
   "resume": {
-    "tagline": "👋  I'm a software engineer, product designer, and maker.",
-    "description": "I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.",
+    "tagline": "👋  I'm a developer and designer with a knack for creating efficient, user-friendly solutions.",
+    "description": "Experienced in web development, system design, and user experience analysis. Familiar with React, JavaScript, and backend integration.",
     "experiences": [
       {
         "id": "1",
-        "dates": "March 2022 - Present",
-        "type": "Full Time",
-        "position": "Frontend Engineer at X",
+        "dates": "Jun 2024 - Sep 2024",
+        "type": "Internship",
+        "position": "Software Engineering Intern at Combain Mobile AB",
         "bullets": [
-          "Worked on the frontend of a React application",
-          "Worked on the frontend of a React application"
+          "Developed an AI File Management Widget for handling uploads.",
+          "Built a dynamic chat UI for multi-agent communication."
         ]
       },
       {
         "id": "2",
-        "dates": "March 2020 - March 2022",
-        "type": "Full Time",
-        "position": "Frontend Engineer at X",
-        "bullets": ["Worked on the frontend of a React application"]
+        "dates": "Sep 2024 - Present",
+        "type": "Project",
+        "position": "IKEA Project Intern",
+        "bullets": [
+          "Designed and implemented an event dashboard for data visualization.",
+          "Collaborated with stakeholders to define requirements and priorities."
+        ]
       }
     ],
     "education": {
-      "universityName": "University X",
-      "universityDate": "2016-2020",
-      "universityPara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+      "universityName": "Lund University",
+      "universityDate": "2021-2025 (expected) ",
+      "universityPara": "Currently pursuing a bachelor's degree in Computer Science Engineering with a focus on software development and user experience."
     },
-    "languages": ["Javascript", "HTML5", "CSS", "Python"],
-    "frameworks": ["React", "Typescript", "NodeJs"],
-    "others": ["Figma", "AdobeXD", "AWS"]
+    "languages": ["JavaScript", "HTML", "CSS", "Python", "Java"],
+    "frameworks": ["React", "Node.js", "Material UI"],
+    "others": ["Figma", "Git", "Notion"]
   }
 }
