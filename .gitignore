@@ -40,3 +40,14 @@ hahaem1ly.github.io/
 
 # user directories (example from your `git status`)
 ../../../*
+
+
+# Ignore macOS system files
+.DS_Store
+# Ignore cache and temp files
+.cache/
+.gradle/
+.zsh_history
+*.zsh
+# Ignore environment files
+*.env
