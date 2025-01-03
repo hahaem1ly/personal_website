@@ -1,0 +1,101 @@
+{
+  "name": "Emily",
+  "headerTaglineOne": "Hello 👋",
+  "headerTaglineTwo": "I'm Emily - curious",
+  "headerTaglineThree": "designer and developer",
+  "headerTaglineFour": "based in Sweden.",
+  "showBlog": true,
+  "darkMode": true,
+  "socials": [
+    {
+      "id": "1",
+      "title": "GitHub",
+      "link": "https://github.com/hahaem1ly"
+    },
+    {
+      "id": "2",
+      "title": "LinkedIn",
+      "link": "https://www.linkedin.com/in/emily-ha-885605210/"
+    },
+    {
+      "id": "3",
+      "title": "Email",
+      "link": "mailto:em2653ha-s@student.lu.se"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "IKEA Event Dashboard",
+      "description": "Timeline and event visualization for order management.",
+      "imageSrc": "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?auto=format&fit=crop&w=400&q=60",
+      "url": "https://github.com/hahaem1ly/event-dashboard"
+    },
+    {
+      "id": "2",
+      "title": "Movie Review App",
+      "description": "React app with movie reviews and API integration.",
+      "imageSrc": "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?auto=format&fit=crop&w=400&q=60",
+      "url": "https://github.com/hahaem1ly/movie-review-app"
+    },
+    {
+      "id": "3",
+      "title": "Personal Portfolio",
+      "description": "Portfolio website hosted on GitHub Pages.",
+      "imageSrc": "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?auto=format&fit=crop&w=400&q=60",
+      "url": "https://hahaem1ly.github.io"
+    }
+  ],
+  "services": [
+    {
+      "id": "1",
+      "title": "Web Development",
+      "description": "Building functional and user-friendly web applications using React, JavaScript, and modern tools."
+    },
+    {
+      "id": "2",
+      "title": "UX/UI Design",
+      "description": "Crafting intuitive and aesthetically pleasing designs tailored to user needs."
+    },
+    {
+      "id": "3",
+      "title": "Prototyping",
+      "description": "Creating interactive mockups for design validation and iteration."
+    }
+  ],
+  "aboutpara": "I'm a computer science engineering student passionate about web development, UX/UI design, and real-time systems. I strive to create meaningful digital experiences while continuously learning and growing in my craft.",
+  "resume": {
+    "tagline": "👋  I'm a developer and designer with a knack for creating efficient, user-friendly solutions.",
+    "description": "Experienced in web development, system design, and user experience analysis. Familiar with React, JavaScript, and backend integration.",
+    "experiences": [
+      {
+        "id": "1",
+        "dates": "Jun 2024 - Sep 2024",
+        "type": "Internship",
+        "position": "Software Engineering Intern at Combain Mobile AB",
+        "bullets": [
+          "Developed an AI File Management Widget for handling uploads.",
+          "Built a dynamic chat UI for multi-agent communication."
+        ]
+      },
+      {
+        "id": "2",
+        "dates": "Sep 2024 - Present",
+        "type": "Project",
+        "position": "IKEA Project Intern",
+        "bullets": [
+          "Designed and implemented an event dashboard for data visualization.",
+          "Collaborated with stakeholders to define requirements and priorities."
+        ]
+      }
+    ],
+    "education": {
+      "universityName": "Lund University",
+      "universityDate": "2021-2025 (expected) ",
+      "universityPara": "Currently pursuing a bachelor's degree in Computer Science Engineering with a focus on software development and user experience."
+    },
+    "languages": ["JavaScript", "HTML", "CSS", "Python", "Java"],
+    "frameworks": ["React", "Node.js", "Material UI"],
+    "others": ["Figma", "Git", "Notion"]
+  }
+}
