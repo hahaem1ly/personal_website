@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState} from "react";
 import Header from "../components/Header";
 import ServiceCard from "../components/ServiceCard";
 import Socials from "../components/Socials";
@@ -15,6 +15,9 @@ import Image from "next/image";
 // Local Data
 import data from "../data/portfolio.json";
 import timelineData from "../data/timelinedata.json";
+import educationData from "../data/education.json";
+import Modal from "./modal";
+
 
 export default function Home() {
   // Refs
@@ -25,6 +28,23 @@ export default function Home() {
   const textThree = useRef();
   const textFour = useRef();
   const profileImageRef = useRef(); // Ref for profile image
+
+
+   // Modal State
+   const [isModalOpen, setIsModalOpen] = useState(false);
+   const [selectedProject, setSelectedProject] = useState(null);
+ 
+   // Modal Handlers
+   const openModal = (project) => {
+     setSelectedProject(project);
+     setIsModalOpen(true);
+   };
+ 
+   const closeModal = () => {
+     setIsModalOpen(false);
+     setSelectedProject(null);
+   };
+ 
 
   // Handling Scroll
   const handleWorkScroll = () => {
@@ -196,24 +216,91 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Socials Section */}
-        <Socials className="mt-2 laptop:mt-5" />
-
-        {/* Work Section */}
-        <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={workRef}>
-          <h1 className="text-2xl text-bold">Work.</h1>
-          <div className="mt-5 laptop:mt-10 grid grid-cols-1 tablet:grid-cols-2 gap-4">
-            {data.projects.map((project) => (
-              <WorkCard
-                key={project.id}
-                img={project.imageSrc}
-                name={project.title}
-                description={project.description}
-                onClick={() => window.open(project.url)}
-              />
+        {/* Education Section */}
+        <div className="container mx-auto mt-20">
+          <h2 className="text-4xl font-bold text-center mb-10 text-gray-900">
+            Education
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {educationData.map((edu, index) => (
+              <div
+                key={index}
+                className="relative bg-white rounded-xl p-6 shadow-lg hover:shadow-2xl transform transition duration-300"
+              >
+                <div className="flex items-center mb-4">
+                  <div className="w-12 h-12">
+                    <Image
+                      src="/images/luicon.png"
+                      alt="Lund University Icon"
+                      width={48}
+                      height={48}
+                      className="rounded-full shadow-md"
+                    />
+                  </div>
+                  <div className="ml-4">
+                    <h3 className="text-xl font-bold text-gray-800">
+                      {edu.degree}
+                    </h3>
+                    <p className="text-sm text-gray-500 italic">
+                      {edu.duration}
+                    </p>
+                  </div>
+                </div>
+                <p className="text-lg font-semibold text-gray-600">
+                  {edu.school}
+                </p>
+                <p className="text-gray-700 mt-4 leading-relaxed">
+                  {edu.description}
+                </p>
+              </div>
             ))}
           </div>
         </div>
+
+
+        {/* Socials Section */}
+        <Socials className="mt-2 laptop:mt-5" />
+
+       {/* Work Section */}
+       <div className="container mx-auto mt-20 px-6 lg:px-0">
+          <h2 className="text-4xl font-bold text-center mb-12 text-gray-900">
+            Recent Projects
+          </h2>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            {data.projects.map((project, index) => (
+              <div
+                key={index}
+                className="bg-white rounded-lg shadow-md hover:shadow-lg transform transition-transform hover:scale-105 flex items-start p-4 cursor-pointer"
+                onClick={() => openModal(project)}
+              >
+                <div className="w-1/4">
+                  <img
+                    src={project.imageSrc}
+                    alt={project.title}
+                    className="rounded-md object-cover w-full h-full aspect-[4/3]"
+                  />
+                </div>
+                <div className="w-3/4 pl-4">
+                  <h3 className="text-lg font-bold text-gray-800 mb-2">
+                    {project.title}
+                  </h3>
+                  <p className="text-gray-600 text-sm leading-relaxed mb-4">
+                    {project.description}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Modal */}
+        {isModalOpen && (
+          <Modal
+            show={isModalOpen}
+            onClose={closeModal}
+            project={selectedProject}
+          />
+        )}
 
         {/* Services Section */}
        
